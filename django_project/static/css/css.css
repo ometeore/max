@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+}
+.h_flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.v_flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#home_menu{
+    background: url("/static/image/home.jpg") no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 767px;
+    width: 100%;
+}
+
+#menu_left{
+    width: 20%;
+}
+#menu_right{
+    width: 60%;
+}
+a:hover 
+{
+ font-weight: bold;
+}
+a{
+    color:black;
+}
